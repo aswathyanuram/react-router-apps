@@ -1,0 +1,15 @@
+.sidebarContainer {
+  width: 100%;
+  padding: 0.25rem;
+}
+
+.link {
+  padding: 0.5rem 1rem;
+  background-color: #fefefe;
+  margin-bottom: 0.25rem;
+}
+
+.link:hover {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
