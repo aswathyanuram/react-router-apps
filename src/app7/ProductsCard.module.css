@@ -1,0 +1,68 @@
+.cardContainer {
+  width: calc(100vw - 200px);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: scroll;
+  position: relative;
+}
+
+.cart {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  color: #fefefe;
+  padding: 0.5rem 1rem;
+  background-color: #7900ff;
+}
+
+.buy {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  color: #fefefe;
+  padding: 0.5rem 1rem;
+  background-color: #7900ff;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+  border-radius: 1rem;
+  margin: 1rem;
+  padding: 0.5rem;
+  width: 250px;
+  height: 300px;
+}
+
+.details {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 2rem;
+}
+
+.btn {
+  color: #fefefe;
+  background-color: #7900ff;
+  border: none;
+  outline: none;
+  border-radius: 1rem;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.title {
+  word-break: break-all; /* Option 1 */
+  overflow-wrap: break-word; /* Option 2 */
+  hyphens: auto; /* Option 3 */
+}

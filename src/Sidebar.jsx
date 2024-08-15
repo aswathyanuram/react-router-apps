@@ -7,6 +7,10 @@ export default function Sidebar() {
   const links = [
     { path: "/message", title: "Message" },
     { path: "/counter", title: "Counter" },
+    { path: "/products", title: "Products" },
+    { path: "/timer", title: "Timer" },
+    { path: "/randomcolor", title: "Random Color" },
+    { path: "/productscard", title: "Products Card" },
   ];
   return (
     <div className={styles.sidebarContainer}>
