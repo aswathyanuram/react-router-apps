@@ -11,6 +11,8 @@ import Products from "./app4/Products.jsx";
 import Timer from "./app5/Timer.jsx";
 import RandomColor from "./app6/RandomColor.jsx";
 import ProductsCard from "./app7/ProductsCard.jsx";
+import ToDo from "./app8/ToDo.jsx";
+import ToDoAxios from "./app9/ToDoAxios.jsx";
 
 const router = createBrowserRouter([
   {
@@ -40,6 +42,15 @@ const router = createBrowserRouter([
   {
     path: "/productscard",
     element: <Page content={<ProductsCard />} />,
+  },
+
+  {
+    path: "/todoapp",
+    element: <Page content={<ToDo />} />,
+  },
+  {
+    path: "/todoaxios",
+    element: <Page content={<ToDoAxios />} />,
   },
 ]);
 

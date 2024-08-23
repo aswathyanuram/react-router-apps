@@ -11,6 +11,8 @@ export default function Sidebar() {
     { path: "/timer", title: "Timer" },
     { path: "/randomcolor", title: "Random Color" },
     { path: "/productscard", title: "Products Card" },
+    { path: "/todoapp", title: "ToDo" },
+    { path: "/todoaxios", title: "ToDo Axios" },
   ];
   return (
     <div className={styles.sidebarContainer}>
