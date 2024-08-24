@@ -1,0 +1,92 @@
+.noteContainer {
+  background: radial-gradient(
+    circle at 12.3% 19.3%,
+    rgb(85, 88, 218) 0%,
+    rgb(95, 209, 249) 100.2%
+  );
+  min-height: 100vh;
+  min-width: 800px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.card {
+  padding: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 500px;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  background-color: #fefefe;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.2);
+}
+
+.top {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.bottom {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.completion {
+}
+
+.groupTitle {
+  padding-left: 1rem;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  flex: 1;
+}
+
+.groupExpand {
+  width: 50px;
+  font-size: 2rem;
+  color: grey;
+}
+
+.groupExpand:hover {
+  color: blue;
+}
+
+.noteCard {
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  background-color: #fefefe;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.noteCheckbox {
+}
+
+.noteTitle {
+  flex: 1;
+  padding: 0.25rem 0.25rem 0.25rem 1rem;
+}

@@ -1,19 +1,11 @@
 import React from "react";
 import styles from "./Sidebar.module.css";
 import { useNavigate } from "react-router-dom";
+import { ALL_ROUTES } from "./main";
 
 export default function Sidebar() {
   const navigate = useNavigate();
-  const links = [
-    { path: "/message", title: "Message" },
-    { path: "/counter", title: "Counter" },
-    { path: "/products", title: "Products" },
-    { path: "/timer", title: "Timer" },
-    { path: "/randomcolor", title: "Random Color" },
-    { path: "/productscard", title: "Products Card" },
-    { path: "/todoapp", title: "ToDo" },
-    { path: "/todoaxios", title: "ToDo Axios" },
-  ];
+  const links = ALL_ROUTES;
   return (
     <div className={styles.sidebarContainer}>
       {links.map((link) => {
