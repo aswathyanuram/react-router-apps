@@ -14,6 +14,7 @@ import ProductsCard from "./app7/ProductsCard.jsx";
 import ToDo from "./app8/ToDo.jsx";
 import ToDoAxios from "./app9/ToDoAxios.jsx";
 import WeekToDo from "./app10/WeekToDo.jsx";
+import Calculator from "./app11/Calculator.jsx";
 
 export const ALL_ROUTES = [
   {
@@ -66,6 +67,11 @@ export const ALL_ROUTES = [
     path: "/weektodo",
     title: "Week Todo",
     element: <Page content={<WeekToDo />} />,
+  },
+  {
+    path: "/calculator",
+    title: "Calculator",
+    element: <Page content={<Calculator />} />,
   },
 ];
 
